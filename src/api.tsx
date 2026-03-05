@@ -2,7 +2,7 @@ import axios from "axios";
 import type { Todo } from "./types/types";
 
 // const API_URL = "https://localhost:44360/api/todo"; //For CRUD API
-const API_URL = "https://localhost:44392/api/todo"; //For CQRS API
+const API_URL = "https://blazze.bsite.net/api/todo"; //For CQRS API
 
 export async function getTodos(): Promise<Todo[]> {
   const res = await fetch(API_URL);
